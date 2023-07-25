@@ -47,13 +47,6 @@ body {
   display: flex;
 }
 
-.hero-title {
-  color: var(--primary-white-color);
-  font-size: 56px;
-  line-height: 60px;
-  letter-spacing: 1.12px;
-}
-
 .title {
   color: var(--primary-text-color);
   font-size: 20px;
@@ -118,6 +111,7 @@ body {
 .buttons-button:focus {
   color: var(--primary-gray-color);
 }
+
 /* Header Section */
 
 .page-header {
@@ -179,6 +173,14 @@ body {
 .header-address-link:hover,
 .header-address-link:focus {
   color: var(--primary-blue-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .logo {
