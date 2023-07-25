@@ -11,43 +11,51 @@
       rel="stylesheet"
     />
 
+    <!--CSS Normalizer-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
     <!--CSS-->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
     <header class="page-header">
-      <nav>
-        <a class="logo-link" href="./index.html"
-          ><span class="logo">WEB</span><span class="studio">STUDIO</span></a
-        >
-        <ul class="nav-menu list">
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a class="logo-link logo" href="./index.html"
+            ><span class="logo">WEB</span><span class="studio">STUDIO</span></a
+          >
+          <ul class="nav-menu list">
+            <li>
+              <a class="page current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="page" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="page" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-menu list">
           <li>
-            <a class="page current" href="./index.html">Studio</a>
+            <a class="item" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="page" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="page" href="#">Contacts</a>
+            <a class="item" href="tel:+110001111111">+11(000)111-11-11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="contacts-menu list">
-        <li>
-          <a class="item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="item" href="tel:+110001111111">+11(000)111-11-11</a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
       <!--Hero Section-->
-      <section class="hero bg-hero">
+      <section class="hero bg-hero section">
         <h1 class="hero-title">
           Effective Solutions<br />
           for your business

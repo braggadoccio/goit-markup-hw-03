@@ -9,21 +9,58 @@
   --secondary-background-color: #2e2f42;
 }
 
+/* CSS RESET */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+/* END of CSS Reset */
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 /* General Elements */
 
-.list {
-  list-style: none;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
-.title {
-  color: white;
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 1.12px;
+}
+
+.title {
+  color: var(--primary-text-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 
 .section-title {
@@ -46,6 +83,11 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.item {
+  text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 .hero-button {
@@ -79,10 +121,24 @@ body {
 /* Header Section */
 
 .page-header {
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
   background-color: var(--primary-white-color);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header-navigation {
+  display: flex;
+  gap: 80px;
+}
+
+.nav-menu {
+  gap: 40px;
 }
 
 .header-link {
@@ -100,6 +156,11 @@ body {
 
 .header-list {
   list-style: none;
+}
+
+.contacts-menu {
+  margin-right: 156px;
+  gap: 40px;
 }
 
 .header-address {
@@ -134,6 +195,21 @@ body {
   color: orange;
 }
 
+.logo-link {
+  color: var(--primary-blue-color);
+  text-decoration: none;
+  margin-left: 156px;
+}
+
+.studio {
+  color: var(--primary-text-color);
+}
+
+.page {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
 .hero {
   background-color: var(--primary-text-color);
   width: 1440px;
@@ -146,6 +222,22 @@ body {
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
+}
+
+.page-footer {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.bg-footer {
+  background-color: var(--primary-text-color);
+}
+
+.studio-footer {
+  color: var(--primary-white-color);
+}
+.footer-description {
+  margin-left: 156px;
 }
 
 .footer-text {
