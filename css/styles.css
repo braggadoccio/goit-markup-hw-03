@@ -105,7 +105,13 @@ body {
 .container .benefits {
   display: flex;
   gap: 24px;
-  margin-left: 156px;
+  padding-left: 156px;
+}
+
+.what-we-do {
+  display: flex;
+  padding-left: 156px;
+  gap: 24px;
 }
 
 .benefits .description {
