@@ -39,6 +39,7 @@ body {
 
 .studio {
   color: var(--navyblue);
+  margin-right: 76px;
 }
 
 .section-title {
@@ -69,17 +70,17 @@ body {
   flex-shrink: 0;
 }
 
-.nav-menu {
-  display: flex;
-  gap: 40px;
-}
-
 .nav-menu .page {
   font-weight: 500;
   color: var(--navyblue);
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-menu .page:hover,
@@ -218,7 +219,18 @@ body {
 
 .page-header {
   display: flex;
+  /* align-items: center; */
   padding-left: 156px;
+}
+
+.page-header-container {
+  display: flex;
+  /*align-items: center;*/
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 
 /* Section */
