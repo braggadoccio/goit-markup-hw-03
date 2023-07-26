@@ -59,6 +59,7 @@ body {
 }
 
 .contacts-menu {
+  margin-left: 332px;
   display: flex;
   gap: 40px;
 }
