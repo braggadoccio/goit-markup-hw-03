@@ -220,13 +220,12 @@ body {
 
 .page-header {
   display: flex;
-  /* align-items: center; */
   padding-left: 156px;
 }
 
 .page-header-container {
   display: flex;
-  /*align-items: center;*/
+  padding-top: 25.5px;
 }
 
 .header-navigation {
