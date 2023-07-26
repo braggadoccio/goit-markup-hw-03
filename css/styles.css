@@ -57,8 +57,21 @@ body {
   letter-spacing: 0.02em;
 }
 
+.contacts-menu {
+  display: flex;
+  gap: 40px;
+}
+
 .bg-hero {
   background-color: var(--navyblue);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-menu .page {
@@ -120,6 +133,15 @@ body {
 
 .page-footer.bg-footer {
   background-color: var(--navyblue);
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+}
+
+.container-footer {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+  padding-left: 156px;
 }
 
 .studio-footer {
@@ -128,6 +150,10 @@ body {
 
 .footer-description {
   color: var(--cloud);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 
 .button {
@@ -188,4 +214,15 @@ body {
 
 .logo {
   color: var(--iris);
+}
+
+.page-header {
+  display: flex;
+  padding-left: 156px;
+}
+
+/* Section */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
