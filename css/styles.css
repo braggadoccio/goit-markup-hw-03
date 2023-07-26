@@ -250,6 +250,7 @@ body {
 .project {
   text-decoration: none;
 }
+
 /* Header Section */
 
 .logo {
@@ -278,12 +279,6 @@ body {
 }
 
 /* Portfolio */
-.filters.list {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
-}
-
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -293,8 +288,17 @@ body {
   text-align: center;
 }
 
-.projects-item {
+.filters {
+  display: inline-flex;
+  gap: 24px;
+  text-align: center;
+  padding-bottom: 72px;
+}
+
+.projects {
   display: flex;
+  width: 1440px;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
