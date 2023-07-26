@@ -213,8 +213,17 @@ body {
 .button.filter {
   background-color: var(--cloud);
   color: var(--iris);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.64px;
   font-weight: 500;
   line-height: 1.62;
+
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
 }
 
 .button.filter:hover,
@@ -266,4 +275,21 @@ body {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+/* Portfolio */
+.filters.list {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.portfolio-container {
+  text-align: center;
+}
+
+.projects-item {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
