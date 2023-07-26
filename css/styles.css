@@ -98,6 +98,16 @@ body {
   color: var(--navyblue);
 }
 
+/* .benefits-list {
+  display: flex;
+} */
+
+.container .benefits {
+  display: flex;
+  gap: 24px;
+  margin-left: 156px;
+}
+
 .benefits .description {
   color: var(--slate);
   line-height: 1.71;
