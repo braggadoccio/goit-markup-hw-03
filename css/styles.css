@@ -114,6 +114,11 @@ body {
   color: var(--white);
 }
 
+.hero-container {
+  text-align: center;
+  padding-top: 188px;
+}
+
 .bg-team {
   background-color: var(--cloud);
 }
