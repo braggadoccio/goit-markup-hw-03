@@ -98,17 +98,7 @@ body {
   color: var(--navyblue);
 }
 
-/* .benefits-list {
-  display: flex;
-} */
-
-.container .benefits {
-  display: flex;
-  gap: 24px;
-  padding-left: 156px;
-}
-
-.what-we-do {
+.section .benefits {
   display: flex;
   padding-left: 156px;
   gap: 24px;
