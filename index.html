@@ -6,6 +6,8 @@
     <title>Studio</title>
 
     <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -23,32 +25,34 @@
   <body>
     <!--Header-->
     <header class="page-header">
-      <div class="containter page-header-container">
-        <nav class="header-navigation">
+      <div class="containter menu">
+        <nav class="navigation">
           <a class="logo-link" href="./index.html"
             ><span class="logo">WEB</span><span class="studio">STUDIO</span></a
           >
           <ul class="nav-menu list">
-            <li>
-              <a class="page current" href="./index.html">Studio</a>
+            <li class="item">
+              <a class="page current link" href="./index.html">Studio</a>
             </li>
-            <li>
-              <a class="page" href="./portfolio.html">Portfolio</a>
+            <li class="item">
+              <a class="page link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li>
-              <a class="page" href="#">Contacts</a>
+            <li class="item">
+              <a class="page link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
 
         <ul class="contacts-menu list">
-          <li>
-            <a class="item" href="mailto:info@devstudio.com"
+          <li class="item">
+            <a class="contacts-menu list" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="item" href="tel:+110001111111">+11(000)111-11-11</a>
+          <li class="item">
+            <a class="contacts-menu list" href="tel:+110001111111"
+              >+11(000)111-11-11</a
+            >
           </li>
         </ul>
       </div>
@@ -57,7 +61,7 @@
     <main>
       <!--Hero Section-->
       <section class="hero bg-hero">
-        <div class="container hero-container">
+        <div class="container">
           <h1 class="hero-title">
             Effective Solutions<br />
             for your business
@@ -70,28 +74,28 @@
       <section class="section">
         <div class="container">
           <ul class="benefits list">
-            <li>
+            <li class="item">
               <h3 class="title">Strategy</h3>
               <p class="description">
                 Our goal is to identify the business<br />problem to walk away
                 with the<br />perfect and creative solution.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Punctuality</h3>
               <p class="description">
                 Bring the key message to the<br />brand's audience for the best
                 price<br />within the shortest possible time.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Diligence</h3>
               <p class="description">
                 Research and confirm brands that<br />present the strongest
                 digital growth<br />opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title">Technologies</h3>
               <p class="description">
                 Design practice focused on digital<br />experiences. We bring
@@ -102,11 +106,11 @@
         </div>
       </section>
       <!--What We Do Section-->
-      <section class="section">
+      <section class="section no-top-padding">
         <div class="container">
           <h2 class="section-title">What Are We Doing</h2>
           <ul class="what-we-do list">
-            <li>
+            <li class="item">
               <img
                 src="./images/img-1.jpg"
                 alt="monitor"
@@ -114,7 +118,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/img-2.jpg"
                 alt="mobile phone"
@@ -122,7 +126,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/img-3.jpg"
                 alt="mobile and laptop"
@@ -138,27 +142,35 @@
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team list">
-            <li>
-              <img src="./images/img-4.jpg" alt="Mark Guerrero" width="270" />
+            <li class="item">
+              <img
+                src="./images/img-4.jpg"
+                alt="Mark Guerrero"
+                width="270"
+                height="260"
+                class="image"
+              />
               <h3 class="name">Mark Guerrero</h3>
               <p class="position">Product Designer</p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/img-5.jpg"
                 alt="Tom Ford"
                 width="270"
                 height="260"
+                class="image"
               />
               <h3 class="name">Tom Ford</h3>
               <p class="position">Frontend Developerr</p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/img-6.jpg"
                 alt="Camila Garcia"
                 width="270"
                 height="260"
+                class="image"
               />
               <h3 class="name">Camila Garcia</h3>
               <p class="position">Marketing</p>
@@ -169,6 +181,7 @@
                 alt="Daniel Wilson"
                 width="270"
                 height="260"
+                class="image"
               />
               <h3 class="name">Daniel Wilson</h3>
               <p class="position">UI Design</p>
@@ -180,8 +193,8 @@
 
     <!--Footer-->
     <footer class="page-footer bg-footer">
-      <div class="container-footer">
-        <a class="logo-link" href="./index.html"
+      <div class="container">
+        <a class="logo-link footer" href="./index.html"
           ><span class="logo">WEB</span>
           <span class="studio-footer">STUDIO</span></a
         >
