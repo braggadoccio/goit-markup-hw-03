@@ -45,7 +45,6 @@ body {
 }
 
 /* General Elements */
-
 .list {
   list-style: none;
   padding: 0;
@@ -54,7 +53,7 @@ body {
 
 .link {
   text-decoration: none;
-  color:inherit:
+  color: inherit;
 }
 
 .container {
@@ -65,6 +64,7 @@ body {
 
 .menu,
 .navigation,
+.nav-menu,
 .contacts-menu {
   display: flex;
   align-items: center;
@@ -85,7 +85,6 @@ body {
 
 .studio {
   color: var(--navyblue);
-  margin-right: 76px;
 }
 
 .section-title {
@@ -110,7 +109,7 @@ body {
   background-color: var(--navyblue);
 }
 
-.nav-menu .page
+.nav-menu .page,
 .contacts-menu .contact {
   font-weight: 500;
   color: var(--navyblue);
@@ -122,7 +121,7 @@ body {
   padding-bottom: 31px;
 }
 
-.contacts-menu .contacts {
+.contacts-menu .contact {
   color: var(--slate);
   font-weight: 400;
 }
@@ -169,7 +168,7 @@ body {
 }
 
 .benefits .item {
-  flex-basis: calc(100%/ 4 -30px);
+  flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -189,7 +188,7 @@ body {
 }
 
 .what-we-do .item {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -208,12 +207,14 @@ body {
   padding-bottom: 30px;
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .bg-team {
   background-color: var(--cloud);
 }
+
 .team .name,
 .team .position {
   line-height: 1.19;
@@ -278,14 +279,14 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   font-weight: 500;
-  display: inline-flex;
   padding: 16px 32px;
 }
 
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--ocean);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button.filter {
@@ -302,7 +303,8 @@ body {
 .button.filter.current {
   background-color: var(--ocean);
   color: var(--cloud);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .project .name {
@@ -320,6 +322,7 @@ body {
   line-height: 1.87;
   font-size: 16px;
 }
+/*Header Section*/
 
 .logo,
 .studio {
@@ -335,6 +338,7 @@ body {
 }
 
 /* Section */
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -352,8 +356,8 @@ body {
 
 .filters .space + .space {
   margin-left: 8px;
-
 }
+
 .projects {
   display: flex;
   flex-wrap: wrap;
